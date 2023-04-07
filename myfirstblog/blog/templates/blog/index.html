@@ -1,0 +1,9 @@
+<ul>
+    {% for post in post_list %}
+    <h3><a href="{{post.id}}">{{post.title}}</a></h3>
+    <p>{{post.text}}</p>
+    <h4>{{post.author}}</h4>
+    {% endfor %}
+</ul>
+
+
